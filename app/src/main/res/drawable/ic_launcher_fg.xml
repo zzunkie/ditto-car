@@ -1,0 +1,8 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 말풍선 안의 번개: "말하면 실행" -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M30,34h48a8,8 0,0 1,8 8v22a8,8 0,0 1,-8 8h-26l-12,10v-10h-10a8,8 0,0 1,-8 -8v-22a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#FF1F5EEB"
+        android:pathData="M58,40l-14,18h9l-4,12l14,-18h-9z" />
+</vector>
