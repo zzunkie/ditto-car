@@ -90,7 +90,7 @@ https://nexus-playground.pleos.ai/repository/raw-releases/connect-avd/2.x/crp-ar
 
 ### 2. APK 설치
 
-미리 빌드한 release APK가 `apk/zzunkie_ditto_release.apk`에 있습니다.
+미리 빌드한 release APK가 `apk/zzunkie_ditto_release.apk`에 있습니다. API 키 없이 빌드한 것이어서 문장 해석은 앱 안 해석기가 맡고, 평가 결과의 `gpt-6.1-terra` 해석은 아래 4번처럼 키를 넣어 빌드하면 동작합니다.
 
 ```sh
 adb -s emulator-5584 install -r -g apk/zzunkie_ditto_release.apk
